@@ -1,4 +1,6 @@
-class IncomeTax {
+import $Employee from '../$employee';
+
+export default class IncomeTax {
   private employee: $Employee
 
   constructor(employee: $Employee) {

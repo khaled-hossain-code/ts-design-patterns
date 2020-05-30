@@ -1,4 +1,6 @@
-class Promotion {
+import $Employee from '../$employee';
+
+export default class Promotion {
   constructor(private employee: $Employee) {}
 
   isPromotionDueThisYear() {

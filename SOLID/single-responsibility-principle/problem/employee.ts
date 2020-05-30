@@ -1,9 +1,15 @@
-class Employee {
-  employeeId: string
+export default class Employee {
+  employeeId: number
   salary: number
   name: string
-  address: string
   dateOfJoin: any
+
+  constructor(employeeId: number, salary: number, name: string) {
+    this.employeeId = employeeId
+    this.salary = salary
+    this.name = name
+    this.dateOfJoin = Date.now()
+  }
 
   isPromotionDueThisYear() {
     console.log("promotion due")
