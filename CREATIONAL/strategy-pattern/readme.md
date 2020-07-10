@@ -32,3 +32,8 @@ public class Bird extends Animal implements Flys
 - this is also known as composition, instead of inheriting one behavior from parent, sub classes are composed of right behavior they need.
 
 - due to composition now we can change the behavior of class on run time. for example our bird broke its wings, now it can't fly.
+
+- We should create a interface of this behavior, different class will implement this behavior and we will use this interface as an instance variable of Animal(super class) and then create a method to fly and through polymorphism each subclass will fly according to their algorithm. now any subclass can use any implementation they want.
+
+### UML
+
