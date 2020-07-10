@@ -37,3 +37,4 @@ public class Bird extends Animal implements Flys
 
 ### UML
 
+![](uml-strategy.png "Logo Title Text 1")
