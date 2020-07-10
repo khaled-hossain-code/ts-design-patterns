@@ -31,5 +31,4 @@ public class Bird extends Animal implements Flys
 
 - this is also known as composition, instead of inheriting one behavior from parent, sub classes are composed of right behavior they need.
 
-- due to composition now we can change the behavior of class on run time. for example our bird broke its wings, now it can't fly
-
+- due to composition now we can change the behavior of class on run time. for example our bird broke its wings, now it can't fly.
